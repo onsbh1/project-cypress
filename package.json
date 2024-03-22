@@ -1,0 +1,45 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "npm run cypress:run",
+    "cypress:run": "cypress run",
+    "allure:generate": "node cypress.report.js && allure generate cypress/reports -o allure-report --clean",
+    "pretty": "prettier --write \"./**/*.{js,json,yml}\"",
+    "cypress:custom": "CYPRESS_BROWSER=chrome CYPRESS_chromeVersion=88.0.4324.150 cypress open",
+    "allure:report": "allure open allure-report",
+    "developpement env": "npx cypress run --env development",
+    "allure:report2": "npm run allure:generate && allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@shelex/cypress-allure-plugin": "^2.40.1",
+    "allure-commandline": "^2.27.0",
+    "cypress": "^13.6.6",
+    "cypress-localstorage-commands": "^2.2.5",
+    "mocha-allure-reporter":"^1.4.0"
+  }, 
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/step_definitions/**/*.js"
+  },
+  "dependencies": {
+    "allure": "^0.0.0",
+    "npm": "^10.5.0"
+  }, 
+  
+    "mocha": {
+      "parallel": false,
+      "reporter": "allure-mocha",
+      "reporterOptions": {
+        "resultsDir": "allure-results"
+      }
+    }
+  }
+
+

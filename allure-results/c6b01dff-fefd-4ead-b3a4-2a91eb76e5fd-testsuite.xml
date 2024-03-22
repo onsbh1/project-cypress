@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1710323902378' stop='1710323908507'>
+    <name>login to the Application</name>
+    <title>login to the Application</title>
+    <test-cases>
+        <test-case start='1710323902394' status='broken' stop='1710323905670'>
+            <name>[MBC-297] :As a user of MyBIAT, I want to land on an authentification screen when I open the app (example #1)</name>
+            <title>[MBC-297] :As a user of MyBIAT, I want to land on an authentification screen when I open the app (example #1)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Multiple matching step definitions for: Type a "ValueBIAT.2010"
+                 Type a {string}
+                 Type a {string}</message>
+                <stack-trace>Error: Multiple matching step definitions for: Type a "ValueBIAT.2010"
+                 Type a {string}
+                 Type a {string}
+                    at Registry.resolveStepDefintion (http://mybiat-corporate-web-backbase-application-rec2.apps.ocp-uat.biat.int/__cypress/tests?p=cypress\e2e\features\login.feature:8555:19)
+                    at Registry.runStepDefininition (http://mybiat-corporate-web-backbase-application-rec2.apps.ocp-uat.biat.int/__cypress/tests?p=cypress\e2e\features\login.feature:8570:39)
+                    at Object.fn (http://mybiat-corporate-web-backbase-application-rec2.apps.ocp-uat.biat.int/__cypress/tests?p=cypress\e2e\features\login.feature:15040:43)
+                    at runStepWithLogGroup (http://mybiat-corporate-web-backbase-application-rec2.apps.ocp-uat.biat.int/__cypress/tests?p=cypress\e2e\features\login.feature:14658:29)
+                    at Context.eval (http://mybiat-corporate-web-backbase-application-rec2.apps.ocp-uat.biat.int/__cypress/tests?p=cypress\e2e\features\login.feature:15036:62)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1710323905703' status='passed' stop='1710323908507'>
+            <name>[MBC-297] : login to the app (example #1)</name>
+            <title>[MBC-297] : login to the app (example #1)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

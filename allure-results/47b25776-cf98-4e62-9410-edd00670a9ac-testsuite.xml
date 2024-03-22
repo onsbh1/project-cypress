@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1710323917770' stop='1710323925150'>
+    <name>login to the Application</name>
+    <title>login to the Application</title>
+    <test-cases>
+        <test-case start='1710323918132' status='passed' stop='1710323925150'>
+            <name>[MBC-320] :As a user of MyBIAT, I want to logged the app</name>
+            <title>[MBC-320] :As a user of MyBIAT, I want to logged the app</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

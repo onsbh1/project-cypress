@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1710323926899' stop='1710323936273'>
+    <name>I switch the language directly from the app</name>
+    <title>I switch the language directly from the app</title>
+    <test-cases>
+        <test-case start='1710323926947' status='passed' stop='1710323936273'>
+            <name>[MBC-1195] :As a user of MyBIAT ,I Switch language directly from the app</name>
+            <title>[MBC-1195] :As a user of MyBIAT ,I Switch language directly from the app</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

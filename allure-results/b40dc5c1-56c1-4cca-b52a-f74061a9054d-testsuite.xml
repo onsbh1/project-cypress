@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1710326372154' stop='1710326379317'>
+    <name>login to the Application</name>
+    <title>login to the Application</title>
+    <test-cases>
+        <test-case start='1710326372516' status='passed' stop='1710326376109'>
+            <name>[MBC-297] :As a user of MyBIAT, I want to land on an authentification screen when I open the app (example #1)</name>
+            <title>[MBC-297] :As a user of MyBIAT, I want to land on an authentification screen when I open the app (example #1)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1710326376131' status='passed' stop='1710326379317'>
+            <name>[MBC-297] : login to the app (example #1)</name>
+            <title>[MBC-297] : login to the app (example #1)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
